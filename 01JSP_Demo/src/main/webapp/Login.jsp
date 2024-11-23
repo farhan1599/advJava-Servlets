@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Login Page</title>
+<title>LoginPage</title>
 </head>
 <body>
 	<form action="./Login.jsp" method="post">
