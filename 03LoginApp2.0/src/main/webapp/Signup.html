@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Signup</title>
+<style>
+body {
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+div {
+	border: solid 3px;
+	padding: 1em;
+	max-width: 40%;
+	border-radius: 15px 50px;
+}
+
+.container {
+	margin: auto;
+	margin-top: 60px;
+	background-image: linear-gradient(180deg, #6c81c3, #e78cac);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 20em;
+}
+
+.btn {
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+	padding: 10px;
+	background-color: black;
+	border-radius: 13px;
+	color: white;
+}
+
+.btn:hover {
+	background-color: white;
+	color: black;
+}
+
+input {
+	margin: 5px;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<form action="./signupsrv" method="post">
+			<table>
+				<tr>
+					<td>Username:</td>
+					<td><input type="text" name="uname"></td>
+				</tr>
+				<tr>
+				<td>Password:</td>
+				<td><input type="password" name="pwd"></td>
+				</tr>
+				<tr>
+				<td>Confirm-Password:</td>
+				<td><input type="password" name="cpwd"></td>
+				</tr>
+			</table>
+			<input type="submit" class="btn" value="Signup">
+		</form>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ProfileManager&apos; to &apos;06ProfileManager&apos;" description="Rename resource &apos;ProfileManager&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/ProfileManager" name="06ProfileManager" stamp="1726416736725" updateReferences="true"/>
+</session>

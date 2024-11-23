@@ -1,0 +1,13 @@
+127.0.0.1 - - [25/Sep/2024:09:41:33 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Sep/2024:09:41:39 +0530] "GET /02LoginApp/ HTTP/1.1" 200 422
+0:0:0:0:0:0:0:1 - - [25/Sep/2024:09:41:39 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [25/Sep/2024:09:42:10 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Sep/2024:09:42:10 +0530] "GET /05PolicyApp/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Sep/2024:09:42:17 +0530] "GET /05PolicyApp/Policy.html HTTP/1.1" 200 1279
+0:0:0:0:0:0:0:1 - - [25/Sep/2024:09:42:22 +0530] "GET /05PolicyApp/issue?name=Sagar&age=27&submit=Submit HTTP/1.1" 200 159
+0:0:0:0:0:0:0:1 - - [25/Sep/2024:09:42:25 +0530] "GET /05PolicyApp/Index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Sep/2024:09:42:27 +0530] "GET /05PolicyApp/ViewPolicy.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Sep/2024:09:42:32 +0530] "GET /05PolicyApp/view?PolicyId=2361&submit=Submit HTTP/1.1" 200 222
+127.0.0.1 - - [25/Sep/2024:09:43:03 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Sep/2024:09:43:03 +0530] "GET /06ProfileManager/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Sep/2024:09:43:10 +0530] "GET /06ProfileManager/entry?option=build HTTP/1.1" 304 -

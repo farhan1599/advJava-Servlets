@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="https://java.sun.com/xml/ns/j2ee" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>02LoginApp</display-name>
+	<servlet>
+	<servlet-name>login</servlet-name>
+	<servlet-class>demo.servlet.LoginServlet</servlet-class>
+	<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>login</servlet-name>
+	<url-pattern>/loginsrv</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+	<welcome-file>Login.html</welcome-file>
+	</welcome-file-list>
+</web-app>

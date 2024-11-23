@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+<style>
+body {
+	font-family: cursive;
+	background-color: lightgray;
+	font-weight: bold;
+}
+
+div {
+	padding: 4em;
+	max-width: 45%;
+	border-radius: 70px;
+	box-shadow: 10px 10px 5px rgb(128, 135, 137);
+}
+
+.choose {
+	margin: auto;
+	margin-top: 60px;
+	background-image: linear-gradient(rgb(238, 163, 243), rgb(121, 209, 243));
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 20em;
+}
+
+.sel {
+	margin: 10px;
+	cursor: pointer;
+}
+
+.btn {
+	margin-top: 30px;
+	padding: 9px;
+	border-radius: 25px;
+	color: whitesmoke;
+	border: 2px solid black;
+	background-image: -webkit-linear-gradient(30deg, black 50%, transparent 50%);
+	background-image: linear-gradient(30deg, black 50%, transparent 50%);
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: 0%;
+	-webkit-transition: background 300ms ease-in-out;
+	transition: background 300ms ease-in-out;
+}
+
+.btn:hover {
+	background-position: 100%;
+	color: black;
+	cursor: pointer;
+}
+</style>
+</head>
+<body>
+	<div class="choose">
+		<form action="./entry">
+			<input class="sel" type="radio" name="option" value="build">
+			Build Profile <br> <input class="sel" type="radio" name="option"
+				value="update"> Update Profile <br> <input class="btn"
+				style="font-family: cursive; font-weight: bold;" type="submit"
+				value="Yes, I want to build/update">
+		</form>
+	</div>
+</body>
+</html>

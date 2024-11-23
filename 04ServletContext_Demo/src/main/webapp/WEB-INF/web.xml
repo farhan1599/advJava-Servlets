@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="https://java.sun.com/xml/ns/j2ee" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>04ServletContext_Demo</display-name>
+	<context-param>
+	<param-name>apiKey</param-name>
+	<param-value>axjtyi02QnPJv32</param-value>
+	</context-param>
+	
+	<servlet>
+	<servlet-name>sOne</servlet-name>
+	<servlet-class>demo.servlet.context.ServletOne</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>sOne</servlet-name>
+	<url-pattern>/srv1</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>sTwo</servlet-name>
+	<servlet-class>demo.servlet.context.ServletTwo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>sTwo</servlet-name>
+	<url-pattern>/srv2</url-pattern>
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+<style>
+body {
+	font-family: monospace;
+	font-size: large;
+	background-color: blanchedalmond;
+}
+
+body:hover {
+	background-color: aliceblue;
+}
+
+div {
+	max-width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+	text-align: center;
+}
+
+.i {
+	margin: 10px;
+}
+
+.btn {
+	margin: 15px;
+	background-color: black;
+	color: white;
+	border-radius: 8px;
+}
+
+.btn:hover {
+	cursor: pointer;
+	background-color: white;
+	color: black;
+}
+
+.container {
+	background-color: aliceblue;
+	border: 1px solid lightblue;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+.container:hover {
+	background-color: antiquewhite;
+	box-shadow: 10px 10px 5px lightblue;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<form action="./login" method="post">
+			Username : <input type="text" class="i" name="username"> <br>
+			Password : <input type="password" class="i" name="password">
+			<br> <input type="submit"
+				style="font-family: monospace; font-size: large;" class="btn"
+				value="submit">
+
+		</form>
+	</div>
+
+</body>
+</html>

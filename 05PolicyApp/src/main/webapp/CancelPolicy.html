@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cancel Policy</title>
+<style>
+body {
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+.i {
+	display: block;
+	margin: 2px;
+	padding: 5px;
+	width: 100%;
+}
+
+div {
+	padding: 1em;
+	max-width: 40%;
+	border-radius: 20px;
+	box-shadow: 10px 10px 5px lightblue;
+}
+
+.container {
+	margin: auto;
+	margin-top: 60px;
+	background-color: #5bcbbb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 20em;
+}
+
+.btn {
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	padding: 5px 30px;
+	background-color: black;
+	border-radius: 13px;
+	color: white;
+}
+
+.btn:hover {
+	background-color: white;
+	color: black;
+}
+
+.head {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+	background-image: linear-gradient(to right, #5bcbbb, lightblue);
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 1px whitesmoke;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+
+
+		<form action="./cancel">
+			<h3 class="head">Cancel Policy</h3>
+			Policy Id:<input type="text" class="i" name="policyId"> <br>
+			<input type="submit" class="btn" name="submit">
+		</form>
+	</div>
+</body>
+</html>
